@@ -621,7 +621,12 @@ function Hero() {
               <img
                 src={heroImg}
                 alt="Ahnaf Batayneh"
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  objectPosition: "center 15%",
+                }}
               />
             </div>
             {/* Teal dot badge */}
